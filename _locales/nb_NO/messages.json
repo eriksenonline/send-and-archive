@@ -1,0 +1,17 @@
+{
+  "extensionName": {
+    "message": "Send og arkiver"
+  },
+  "extensionDescription": {
+    "message": "Legger til en Send og arkiver-knapp i skrivevinduet og arkiverer originalmeldingen etter bekreftet sending."
+  },
+  "composeActionTitle": {
+    "message": "Send og arkiver"
+  },
+  "composeActionLabel": {
+    "message": "Send og arkiver"
+  },
+  "commandDescription": {
+    "message": "Send meldingen og arkiver originalmeldingen"
+  }
+}

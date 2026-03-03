@@ -1,0 +1,35 @@
+{
+  "manifest_version": 2,
+  "name": "__MSG_extensionName__",
+  "description": "__MSG_extensionDescription__",
+  "version": "1.0.2",
+  "default_locale": "en",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "send-and-archive@local",
+      "strict_min_version": "128.0"
+    }
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "permissions": [
+    "compose",
+    "messagesRead",
+    "messagesMove"
+  ],
+  "compose_action": {
+    "default_title": "__MSG_composeActionTitle__",
+    "default_label": "__MSG_composeActionLabel__"
+  },
+  "commands": {
+    "send-and-archive": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Enter"
+      },
+      "description": "__MSG_commandDescription__"
+    }
+  }
+}

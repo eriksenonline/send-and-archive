@@ -1,0 +1,17 @@
+{
+  "extensionName": {
+    "message": "Send & Archive"
+  },
+  "extensionDescription": {
+    "message": "Adds a Send & Archive button to compose and archives the original message after confirmed send."
+  },
+  "composeActionTitle": {
+    "message": "Send & Archive"
+  },
+  "composeActionLabel": {
+    "message": "Send & Archive"
+  },
+  "commandDescription": {
+    "message": "Send the message and archive the original message"
+  }
+}
